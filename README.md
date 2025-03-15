@@ -31,7 +31,7 @@ import scrapy
 class DivannewparsSpider(scrapy.Spider):
 name = "divannewpars"
 allowed_domains = ["divan.ru"]
-start_urls = ["https://www.divan.ru/sankt-peterburg/category/svet"]
+start_urls = ["https://www.divan.ru/category/svet"]
 def parse(self, response):
 pass
 
@@ -39,8 +39,8 @@ pass
 import scrapy
 class DivannewparsSpider(scrapy.Spider):
 name = "divannewpars"
-allowed_domains = ["https://divan.ru"]
-start_urls = ["https://divan.ru/category/divany-i-kresla"]
+allowed_domains = [https://www.divan.ru/sankt-peterburg/]
+start_urls = ["https://www.divan.ru/sankt-peterburg/category/svet"]
 # start_urls - это та ссылка, от которой начинается парсинг
 def parse(self, response):
 pass - это заглушка потом ее удаляем!!!
